@@ -34,7 +34,7 @@ spec:
       containers:
         - image: brainupgrade/weather:metrics
           imagePullPolicy: Always
-          name: weather-front
+          name: weather-front-navya
           resources:
             limits:
               cpu: 1
