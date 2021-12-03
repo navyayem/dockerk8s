@@ -51,7 +51,7 @@ spec:
       containers:
         - image: brainupgrade/weather-services:metrics
           imagePullPolicy: Always
-          name: weather-services
+          name: weather-services-navya
           volumeMounts: 
           - mountPath: /elastic/apm/agent 
             name: elastic-apm-agent          
